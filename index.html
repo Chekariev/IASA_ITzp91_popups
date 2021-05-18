@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pop-up Chekariev</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
-    
-</body>
+		<div class="wrapper">
+			<header id="header" class="header lock-padding">
+				<div class="header__container _container">
+					<a href="#popup-cat" class="header__logo"></a>
+					<a href="#popup" class="header__phone popup-link">Модальное окно CSS</a>
+				</div>
+			</header>
+			<div class="content">
+				<div class="content__container _container">
+					<section class="content__section content__section_row">
+						<div class="content__body">
+							<h1 class="content__title">Описание</h1>
+							<div class="content__text">
+                                <p>
+                                    В процессе выполнения данной лабораторной работы, реализовано открытие модальных окон с помощью CSS по нажатию на картинку и текст.
+                                </p> 
+							</div>
+						</div>
+					</section>
+					<section class="content__section">
+						<h2 class="content__subtitle">Контент</h2>
+						<div class="content__text">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>  
+							<p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quaerat qui minima. Consectetur eligendi dolorum neque voluptatum distinctio laudantium temporibus, aspernatur commodi quibusdam numquam ad quia iste dignissimos fugiat.
+                            </p>  
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+    <!-- Модальное окно -->
+		<div id="popup" class="popup">
+            <a href="#header" class="popup__area"></a>
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close">X</a>
+					<div class="popup__title">Модальное окно 2</div>
+					<div class="popup__text">
+                        Данное модальное окно сделано с помощью CSS.
+                        Модальные окна можно сделать даже без помощи JS только лишь с помощью CSS, но на практике они оказываются неудобными, и из-за маленьких недочетов модальные окна раздражают посетителей сайта.
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- Модальное окно с котом -->
+        <div id="popup-cat" class="popup">
+            <a href="#header" class="popup__area"></a>
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close">X</a>
+					<div class="popup__title">Модальное окно 1</div>
+					<div class="popup__text">
+                        А это модалка по нажатию на кота :)
+					</div>
+				</div>
+			</div>
+		</div>
+    <!--   -->
+	</body>
 </html>
